@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">17</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:8E638694-B4E0-570A-856A-746FF325BF6B</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Research Ideas and Outcomes</journal-title>
+        <abbrev-journal-title xml:lang="en">RIO</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-7163</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/rio.7.e60614</article-id>
+      <article-id pub-id-type="publisher-id">60614</article-id>
+      <article-id pub-id-type="manuscript">13514</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Management Plan</subject>
+        </subj-group>
+        <subj-group subj-group-type="sdg">
+          <subject>Quality education</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Data management plan for CIVOIR project - Circulation of knowledge in education - through "CoopLa"</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Derobert</surname>
+            <given-names>Amelie</given-names>
+          </name>
+          <email xlink:type="simple">a.derobert@univ-lyon2.fr</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9029-3585</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Lantheaume</surname>
+            <given-names>Françoise</given-names>
+          </name>
+          <email xlink:type="simple">francoise.lantheaume@univ-lyon2.fr</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">University Lumiere Lyon 2, Lyon, France</addr-line>
+        <institution>University Lumiere Lyon 2</institution>
+        <addr-line content-type="city">Lyon</addr-line>
+        <country>France</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Amelie Derobert (<email xlink:type="simple">a.derobert@univ-lyon2.fr</email>), Françoise Lantheaume (<email xlink:type="simple">francoise.lantheaume@univ-lyon2.fr</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: </p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>03</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e60614</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/F30BEBFE-DF87-507F-BDF5-8ACEBE071E6A">F30BEBFE-DF87-507F-BDF5-8ACEBE071E6A</uri>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>11</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Amelie Derobert, Françoise Lantheaume</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>This data management plan was created using the OPIDoR (Optimiser le partage et l'interopérabilié des données de la recherche/ Tools and services to support french research data mangement). It describes all data collected and created as part of the postdoctoral research for the project "Circulation of knowledge: between sciences, policies, and practices in education (CIVOIR)" under the scientific direction of Professor Françoise Lantheaume and with the participation of German Fernandez Vavrik, University Lumiere Lyon 2, France. The data produced in this survey was collected through a mechanism specifically created for this project: the cooperative laboratory - CoopLa.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Data management plan</kwd>
+        <kwd>education</kwd>
+        <kwd>circulation of knowledge</kwd>
+        <kwd>cooperative laboratory</kwd>
+        <kwd>democracy</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="0"/>
+        <ref-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Creating a data management plan in the social sciences and humanities is a new practice required by research authorities in France. While there are some French tools that help in the writing of a data management plan such as OPIDoR*<xref ref-type="fn" rid="FN5950838">1</xref>,the tools are mainly written for collaborative projects between several laboratories and/or universities, and this raises many questions about our practices as researchers.</p>
+      <p>This data management plan proposal stems from experimentation carried out for the CIVOIR project*<xref ref-type="fn" rid="FN5950839">2</xref>"Circulation of knowledge between sciences, policies, and practices in education," funded by IDEX-LYON in 2018–2019, which led to the submission of a research innovation action (RIA) project to the European H2020 program with seven other universities and non-academic partners (Belgium, the United Kingdom, Romania, Portugal, Cyprus, and France) in the field of education.</p>
+    </sec>
+    <sec sec-type="Construction of a data collection method specific to the CIVOIR project">
+      <title>Construction of a data collection method specific to the CIVOIR project</title>
+      <sec sec-type="CIVOIR project">
+        <title>CIVOIR project</title>
+        <p>CIVOIR studies the circulation of knowledge between different spheres (social, cultural, political, and economic) with a focus on education and training issues. The aim is to understand how educational actors cooperate or compete around the definition of knowledge that is considered worthy of circulation in an educational dialogue. The CIVOIR project has two steps. The first 2018-2019 consists of creating the coopla and collecting the data. The second steps, in progress, consists of analysing the data and exploiting it.</p>
+        <p>In 2018, researchers and field actors were brought together for an exploratory Cooperative Laboratory—a "CoopLa" (derived from the expression coined in French <italic>laboratoire collaboratif—Labco)</italic> to discuss the question: "<italic>Do you have to be in school to learn</italic>?" This question was sufficiently general and topical to create a real debate between the actors.</p>
+        <p>This exploratory approach to researching interaction between field actors had the following objectives:</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>to enhance understanding and promote better knowledge of the actors in the Rhône-Alpes-Auvergne region interested in the issue of dropping out of school;</p>
+          </list-item>
+          <list-item>
+            <p>to identify the resources mobilized;</p>
+          </list-item>
+          <list-item>
+            <p>to understand the circulation of knowledge between science, politics, and practices. The interaction took place and data was generated in a cooperative laboratory—a “CoopLa” setting.</p>
+          </list-item>
+        </list></p>
+      </sec>
+      <sec sec-type="Why a specific method?">
+        <title>Why a specific method?</title>
+        <p>In order to study the circulation of knowledge between the sciences, policies, and practices in education and training, we mobilized reflections from two theoretical frameworks. The first was, cognitive anthropology (<xref ref-type="bibr" rid="B5570554">D'Andrade 1995</xref>) which through new approaches combining the fields of knowledge and technology, shows that the reasoning of actors or social groups are situated actions (<xref ref-type="bibr" rid="B5570905">Schuman 1987</xref>). These situated actions depend on the interactions between individuals, various instruments and social conventions that make up the socio-natural and technical environment around them (<xref ref-type="bibr" rid="B5570511">Vinck 2007</xref>). According to <xref ref-type="bibr" rid="B5570564">Grison (2004)</xref>, it is a "matter of considering the cognitive processes of situated activity as inseparable from a situation, whose physical elements, both artefactual and social" (<xref ref-type="bibr" rid="B5570564">Grison 2004</xref>), offer significant resources for the action of the subjects (we note here the influence the theory of affordances (<xref ref-type="bibr" rid="B5892073">Gibson 1977</xref>)</p>
+        <p>Second, the examination of knowledge (<xref ref-type="bibr" rid="B5570521">Adell-Gombert 2011</xref>) "in action" as Bruno Latour (<xref ref-type="bibr" rid="B5571098">Latour 1987</xref>) (from the pragmatic point of view according to Christian Jacob (<xref ref-type="bibr" rid="B5891836">Jacob 2011</xref>); from "justifications" from Boltanski (<xref ref-type="bibr" rid="B5891881">Boltanski et al. (2006)</xref>) shows that a difference is to be made, if the knowledge is understood as being part of identity (to be part of a lineage or a collective history made of shared knowledge, and at an individual level by a singular knowledge which, within the collective, as "experience knowledge") or is mobilized by authority (to justify it, to legitimize it by knowledge whose content and source are exposed as “expert knowledge”). Finally, in all "knowledge", there is <italic>exposed knowledge</italic> and <italic>ignored knowledge</italic>. We are looking for a way to have more information on unknown knowledge and to allow participants to specify or give additional references. As a boundary object (<xref ref-type="bibr" rid="B5891941">Star and Griesemer 1989</xref>), the "circulation of knowledge" presupposes a specific methodology.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Cooperative laboratory—a &quot;CoopLa&quot;: a method and a socio-cultural environment for democracy">
+      <title>Cooperative laboratory—a "CoopLa": a method and a socio-cultural environment for democracy</title>
+      <p>A cooperative Laboratory—a "CoopLa"(or in French <italic>laboratoire collaboratif—Labco)</italic> was organized around a question “Do you have to be in school to learn?” and brought together ten participants (researchers working on the CIVOIR program as well as other researchers, parents, students, political actors, and teachers). The debate was organized to be both face-to-face (participants took part in a workshop in face-to-face dialogue for two hours) and remotely (through an online platform).</p>
+      <p>During the face-to-face interaction, the debate was recorded using four cameras as well as a microphone to record sound. The debate began by recalling the question that united the participants and proposed two "triggers". The triggers were excerpts from two video-documentaries, five minutes each, one on a "traditional" french school and the other on parents who school their children at home. Two debates were organised with different participants, with the core project researchers present for both debates. To recruit participants, we launched a "call for participation" at the university and through the school and out-of-school networks in Lyon (France). A free online dialogue platform was used for the online debate (framateam). All participants were brought together for dialogue via this platform. The platform included five areas:</p>
+      <p><list list-type="order">
+        <list-item>
+          <p>self-presentation (non-compulsory as a pseudonym sufficed),</p>
+        </list-item>
+        <list-item>
+          <p>a question: "How do you understand the problem of non-voluntary school leaving?"</p>
+        </list-item>
+        <list-item>
+          <p>a question: "What do you think are the main reasons for the voluntary leaving of school in France today? ", and</p>
+        </list-item>
+        <list-item>
+          <p>another question: "What do you think families base their choices on? " One of the participants added a fifth theme: “literacy.” CoopLa can thus be seen as both a method of collecting data for the circulation of knowledge and a space for democratic debate (<xref ref-type="bibr" rid="B5570574">Callon and Barthe 2005</xref>).</p>
+        </list-item>
+      </list></p>
+      <sec sec-type="Material produced">
+        <title>Material produced</title>
+        <p>Several types of data were collected. First, personal data about the participants (gender, age, occupation/student, whether the participants were parents or children, the age of the children, and whether they were in or out of school) were gathered at the time the participants signed the consent forms (eight participants for face-to-face n°1 and face-to-face n°2). Second, video and sound data was collected during the face-to-face debate. The sound data was transcribed (Fig. <xref ref-type="fig" rid="F6097426">1</xref>). The online debate was captured on a word processor (Fig. <xref ref-type="fig" rid="F6076382">2</xref>) and the resources mobilized were photographed and identified by a hyperlink. Finally, these data can be used with NVivo software.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Roles and responsabilites">
+      <title>Roles and responsabilites</title>
+      <p><underline>Data collection and production of material:</underline> Amelie Derobert and German Fernandez Vavrik</p>
+      <p><underline>Supervision of project :</underline> Professor Françoise Lantheaume</p>
+      <p><underline>Data storage :</underline> Hard copy to be stored with Laboratory Education, Cultures, Politiques. As part of the data management plan for CIVOIR, all data will also be uploaded to Figshare/socialscience/education (https ://figshare.com).</p>
+    </sec>
+    <sec sec-type="Policies for data sharing and public access ">
+      <title>Policies for data sharing and public access</title>
+      <p>No restrictions on data transcription necessary, and there are no ethical or privacy issues. Intellectual property rights will rest with original authors of the data: Amélie Derobert and German Fernandez Vavrik, and the project supervisors Françoise Lantheaume. Data will be free to use under the expectation that it will be correctly attributed and cited using the Figshare DOI (Licence ODC-ODBL).</p>
+    </sec>
+    <sec sec-type=" Dissemination methods">
+      <title>Dissemination methods</title>
+      <p>All data and metadata will be stored privately in the cloud on Figshare until publication (after anonymization and work with the legal services, and valorization work with the University of Lyon 2), after which point it will be made open-access under a Creative Commons licence, and will be citable in its own right.</p>
+      <p>Data will be searchable on Figshare, and downloadable by any user. Use of universal formats will ensure maximum exchangeability and cross-platform compatibility for all users. All data will be under embargo until publication of scientific articles or chapters.</p>
+    </sec>
+    <sec sec-type="Conclusion">
+      <title>
+        <sup>Conclusion</sup>
+      </title>
+      <p>After one year of work on the circulation of knowledge, the researchers of the CIVOIR project wish to test the "CoopLa" on a new theme and in different countries in Europe: How to study the circulation of knowledge on a transnational educational object? The project consists of looking at a specific object at the crossroads of educational policies (school education, adult education, the judiciary etc.), dedicated to audiences far from education to connect them to education and through education. The focus will particularly be on "Key competences" in the European Union sense (reading, writing, mathematics, digital and citizenship skills). This new project development could not have taken place without the participation and expertise of Dr Andrea Pietrelli.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5570521">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Adell-Gombert</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Anthropologie des savoirs</source>
+          <publisher-name>Armand Colin</publisher-name>
+          <publisher-loc>Paris</publisher-loc>
+          <pub-id pub-id-type="doi">10.3917/arco.adel.2011.01.</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5891881">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Boltanski</surname>
+              <given-names>Luc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thevenot</surname>
+              <given-names>Laurent</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porter</surname>
+              <given-names>Catherine</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>On Justification – Economies of Worth</source>
+          <publisher-name>Princeton University Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5570574">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Callon</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barthe</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Décider sans trancher: Négociations et délibérations à l'heure de la démocratie dialogique.</article-title>
+          <source>Negociations</source>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>115</fpage>
+          <lpage>129</lpage>
+          <pub-id pub-id-type="doi">10.3917/neg.004.115.</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5570554">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>D'Andrade</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <source>The Development of Cognitive Anthropology.</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <pub-id pub-id-type="doi">10.1017/CBO9781139166645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5892073">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gibson</surname>
+              <given-names>James</given-names>
+            </name>
+          </person-group>
+          <year>1977</year>
+          <chapter-title>The theory of affordances</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Shaw</surname>
+              <given-names>Robert E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bransford</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hillsade</surname>
+              <given-names>N. J</given-names>
+            </name>
+          </person-group>
+          <source>Perceiving, acting, and knowing: toward an ecological psychology</source>
+          <edition>Lawrence Erlbaum Associates,</edition>
+        </element-citation>
+      </ref>
+      <ref id="B5570564">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grison</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Des sciences sociales à l'Antropologie cognitive/ Les généalogies de la cognition située</article-title>
+          <source>Activités</source>
+          <volume>1</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.400/activites.1230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5891836">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jacob</surname>
+              <given-names>Christian</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Qu’est-ce qu’un lieu de savoir?</source>
+          <trans-title>What is a place of knowledge?</trans-title>
+          <publisher-name>OpenEdition Press</publisher-name>
+          <publisher-loc>Marseille</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5571098">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Latour</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>1987</year>
+          <source>Science in action</source>
+          <publisher-name>Open University Press</publisher-name>
+          <publisher-loc>Milton Keyne</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5570905">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schuman</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>1987</year>
+          <source>Plans and situated actions: the problem of human/machinecommunication</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5891941">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Star</surname>
+              <given-names>Leigh Susan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Griesemer</surname>
+              <given-names>James</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Institutionnal ecology, ‘Translations’, and Boundary objects: amateurs and professionals on Berkeley’s museum of vertrebate zoologie”</article-title>
+          <source>Social Studies of Science</source>
+          <volume>19</volume>
+          <issue>3</issue>
+          <fpage>387</fpage>
+          <lpage>420</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5570511">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vinck</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Présentation: Cet obscur objet de connaissances</article-title>
+          <source>Revue d'Anthropologie des Connaissances</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>5</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.3917/rac.001.0005.</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN5950838">
+        <label>*1</label>
+        <p>Tools and services to support research data management in France: <ext-link ext-link-type="uri" xlink:href="https://opidor.fr/">https://opidor.fr/</ext-link></p>
+      </fn>
+      <fn id="FN5950839">
+        <label>*2</label>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://civoir.hypotheses.org/">https://civoir.hypotheses.org/</ext-link>
+        </p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="F6097426" position="float" orientation="portrait">
+      <object-id content-type="arpha">6D93727C-B00F-586A-B258-D272AD85F708</object-id>
+      <object-id content-type="doi">10.3897/rio.7.e60614.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Extract data from .txt files.</p>
+      </caption>
+      <graphic xlink:href="rio-07-e60614-g001.png" position="float" id="oo_449361.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/449361</uri>
+      </graphic>
+    </fig>
+    <fig id="F6076382" position="float" orientation="portrait">
+      <object-id content-type="arpha">E79D521C-1BF5-5690-800C-0DDB15B88893</object-id>
+      <object-id content-type="doi">10.3897/rio.7.e60614.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Exemple screen capture in .png with hypertext link.</p>
+      </caption>
+      <graphic xlink:href="rio-07-e60614-g002.png" position="float" id="oo_449513.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/449513</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

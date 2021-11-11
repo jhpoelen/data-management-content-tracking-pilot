@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+            OPIDoR
+     - Accueil
+    </title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Portail d'accès à OPIDoR, outils et services pour accompagner la gestion des données de la recherche">
+    <meta name="robots" content="index, follow">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="https://opidor.fr/wp-content/themes/opidor/images/favicon4.ico" type="images/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+            <link rel="stylesheet" media="all" href="https://opidor.fr/wp-content/themes/opidor/style.css" type="text/css">
+                <script type="text/javascript" src="https://opidor.fr/wp-content/themes/opidor/js/jquery-1.10.2.js"></script>
+        <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="OPIDoR &raquo; Nouvelle version du schéma de métadonnées de DataCite Flux des commentaires" href="https://opidor.fr/nouvelle-version-du-schema-de-metadonnees-de-datacite/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/opidor.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://opidor.fr/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://opidor.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://opidor.fr/wp-content/plugins/cookie-notice/includes/../css/front.min.css?ver=5.8.1' type='text/css' media='all' />
+<script type='text/javascript' id='cookie-notice-front-js-extra'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/opidor.fr\/wp-admin\/admin-ajax.php","nonce":"823f3a9b2b","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"1","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script async type='text/javascript' src='https://opidor.fr/wp-content/plugins/cookie-notice/includes/../js/front.min.js?ver=2.1.3' id='cookie-notice-front-js'></script>
+<link rel="https://api.w.org/" href="https://opidor.fr/wp-json/" /><link rel="alternate" type="application/json" href="https://opidor.fr/wp-json/wp/v2/pages/5" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://opidor.fr/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://opidor.fr/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.1" />
+<link rel="canonical" href="https://opidor.fr/" />
+<link rel='shortlink' href='https://opidor.fr/' />
+<link rel="alternate" type="application/json+oembed" href="https://opidor.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fopidor.fr%2Fnouvelle-version-du-schema-de-metadonnees-de-datacite%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://opidor.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fopidor.fr%2Fnouvelle-version-du-schema-de-metadonnees-de-datacite%2F&#038;format=xml" />
+
+</head>
+<body class="bsbb">
+    <div id="backgrounddiv">
+        <div class ="site-container">
+            <div class="site-pusher">
+                                <header class="bsbb homeheader">
+                    <div class="header__icon" id="header__icon" onclick="">
+                        <ul id="hamburger">
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-511">
+                                <a class="nav-main-link" href="https://opidor.fr/">Accueil</a>
+                                                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-286">
+                                <a class="nav-main-link" href="https://opidor.fr/planifier/">DMP OPIDoR</a>
+                                                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-287">
+                                <a class="nav-main-link" href="https://opidor.fr/reperer/">Cat OPIDoR</a>
+                                                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-285">
+                                <a class="nav-main-link" href="https://opidor.fr/identifier/">PID OPIDoR</a>
+                                                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-333">
+                                <a class="nav-main-link" href="https://opidor.fr/contact/">Contact</a>
+                                                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-taxonomy menu-item-object-category menu-item-294">
+                                <a class="nav-main-link" href="https://opidor.fr/category/news/">Actualités</a>
+                                                            </li>
+                                                </ul>
+                    </div>
+                    <nav class="principal">
+                        <ul class="menu-haut">
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-511">
+                                <a class="nav-main-link" href="https://opidor.fr/">Accueil</a>
+                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-286">
+                                <a class="nav-main-link" href="https://opidor.fr/planifier/">DMP OPIDoR</a>
+                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-287">
+                                <a class="nav-main-link" href="https://opidor.fr/reperer/">Cat OPIDoR</a>
+                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-post menu-item-285">
+                                <a class="nav-main-link" href="https://opidor.fr/identifier/">PID OPIDoR</a>
+                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-333">
+                                <a class="nav-main-link" href="https://opidor.fr/contact/">Contact</a>
+                            </li>
+                                                    <li class="nav-main-item  menu-item menu-item-type-taxonomy menu-item-object-category menu-item-294">
+                                <a class="nav-main-link" href="https://opidor.fr/category/news/">Actualités</a>
+                            </li>
+                                                    <li class="loupe">
+                                <a href="https://opidor.fr/?s=nosearch">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36.062" height="36.062" viewBox="0 0 36.062 36.062"><defs><style>.a{fill:none;}.a,.b{stroke:#101341;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px;}.b{fill:#fff;}</style></defs><g transform="translate(-812.466 735.391) rotate(-45)"><circle class="a" cx="10" cy="10" r="10" transform="translate(1084.5 67.5)"/><line class="b" y2="15" transform="translate(1094.5 87.5)"/></g></svg>                    
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                                        <h1>OPIDoR</h1>
+                </header>
+                                <div class='site-content bsbb'>
+                    <div id="placeslider">
+</div>
+<div id="homecontent">
+    <div id="accroche">
+        <div class="accrocheText">
+                <div class="accrocheTitle">
+                    Outils et services pour accompagner la gestion des données de la recherche
+                </div>
+                <div class="accrocheContent"></div>
+        </div>
+        <div class="accrocheImg"></div>
+    </div>
+    <div id="presentation">
+                    <div class="presentationLeft">
+            <div class="presentationTitle">OPIDoR</div>        
+        </div>
+        <div class="presentationRight">
+            <div class="presentationText"><p><strong>Optimiser le Partage et l&rsquo;Interopérabilité des Données de la Recherche.</strong></p>
+<p>Le portail OPIDoR met à disposition de la communauté de l’Enseignement Supérieur et de la Recherche un ensemble d’outils et de services facilitant la mise en application des principes FAIR pour rendre les données Faciles à trouver, Accessibles, Interopérables et Réutilisables. Ce portail est mis en place par l’Inist-CNRS et participe à la démarche du <a href="http://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf">Plan national pour la science ouverte</a> portée par la France et animée par le <a href="https://www.ouvrirlascience.fr/">Comité pour la science ouverte</a> (CoSO).</p>
+<p>&nbsp;</p>
+</div>            
+        </div>
+                </div>
+    <div id="presentationServices">
+        <div class="titleBox">
+            <div class="titleServices">
+                Les services OPIDoR
+            </div>
+        </div>
+    </div>
+    <div id="services">
+                <div class="wrapper bsbb">
+            <div class="groupe">
+                <div class="zonetexte">
+                </div>
+                <div class="texte">
+                    <div class="serviceTitle">
+                        DMP OPIDoR
+                    </div>
+                    <div class="serviceVerbe">
+                        Planifier
+                    </div>
+                    <div class="serviceSlogan">
+                        Outil d'aide à l’élaboration de plans de gestion de données
+                    </div>
+                    <a href="https://opidor.fr/planifier">
+                        <div class="serviceAccess">
+                            Découvrir
+                        </div>
+                    </a>  
+                </div>
+                <div class="image">
+                    <img src="https://opidor.fr/wp-content/themes/opidor/images/dmp.jpg" alt="">
+                </div>
+            </div>
+        </div>
+                        <div class="wrapper bsbb responsive">
+            </div>
+                                        <div class="box responsive"></div>
+                            <div class="wrapper bsbb">
+            <div class="groupe">
+                <div class="zonetexte">
+                </div>
+                <div class="texte">
+                    <div class="serviceTitle">
+                        Cat OPIDoR
+                    </div>
+                    <div class="serviceVerbe">
+                        Repérer
+                    </div>
+                    <div class="serviceSlogan">
+                        Wiki des services dédiés aux données de la recherche 
+                    </div>
+                    <a href="https://opidor.fr/reperer">
+                        <div class="serviceAccess">
+                            Découvrir
+                        </div>
+                    </a>  
+                </div>
+                <div class="image">
+                    <img src="https://opidor.fr/wp-content/themes/opidor/images/cat.jpg" alt="">
+                </div>
+            </div>
+        </div>
+                                        <div class="wrapper bsbb">
+            <div class="groupe">
+                <div class="zonetexte">
+                </div>
+                <div class="texte">
+                    <div class="serviceTitle">
+                        PID OPIDoR
+                    </div>
+                    <div class="serviceVerbe">
+                        Identifier
+                    </div>
+                    <div class="serviceSlogan">
+                        Service d'attribution d'identifiants pérennes DOI
+                    </div>
+                    <a href="https://opidor.fr/identifier">
+                        <div class="serviceAccess">
+                            Découvrir
+                        </div>
+                    </a>  
+                </div>
+                <div class="image">
+                    <img src="https://opidor.fr/wp-content/themes/opidor/images/pid.jpg" alt="">
+                </div>
+            </div>
+        </div>
+                                        <div class="box responsive"></div>
+                        </div>
+    <div id="presentationServices">
+        <div class="titleBox">
+            <div class="titleServices">
+                Actualités
+            </div>
+            <div class="voir">
+                <a href="https://opidor.fr/category/news">Voir tout</a>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div id="actusSort">
+                                            <div class="actuItem">
+                    <div class="actuImg"><img src="https://opidor.fr/wp-content/uploads/2019/07/article-header-small.jpg" alt="decoration"></div>
+                    <div class="actuTexte">
+                        <div class="actuDate">10/11/2021</div>
+                        <div class="actuTitle">Nouvelle version de DMP OPIDoR très prochainement : vers un DMP machine actionable</div>
+                        <div class="actuCat">DMP OPIDoR</div>
+                        <div class="actuLink"><a href="https://opidor.fr/nouvelle-version-de-dmp-opidor-tres-prochainement-vers-un-dmp-machine-actionable/">Lire la suite</a></div>
+                        
+                    </div>
+                    <div class="actuLine"></div>
+                </div>
+                                                            <div class="actuItem">
+                    <div class="actuImg"><img src="https://opidor.fr/wp-content/uploads/2019/05/jason-blackeye-212990-unsplash.jpg" alt="decoration"></div>
+                    <div class="actuTexte">
+                        <div class="actuDate">05/10/2021</div>
+                        <div class="actuTitle">Des DMP primés</div>
+                        <div class="actuCat">DMP OPIDoR</div>
+                        <div class="actuLink"><a href="https://opidor.fr/des-dmp-primes/">Lire la suite</a></div>
+                        
+                    </div>
+                    <div class="actuLine"></div>
+                </div>
+                                                            <div class="actuItem">
+                    <div class="actuImg"><img src="https://opidor.fr/wp-content/uploads/2019/09/silhouettes-219649_960_720.jpg" alt="decoration"></div>
+                    <div class="actuTexte">
+                        <div class="actuDate">27/09/2021</div>
+                        <div class="actuTitle">Modèle Horizon Europe disponible sur DMP OPIDoR</div>
+                        <div class="actuCat">DMP OPIDoR</div>
+                        <div class="actuLink"><a href="https://opidor.fr/modele-horizon-europe-disponible-sur-dmp-opidor/">Lire la suite</a></div>
+                        
+                    </div>
+                    <div class="actuLine"></div>
+                </div>
+                                                                                                                                                                                                            </div>
+    </div>
+ </div>
+                </div>
+                                <footer>
+                    <sidebar>
+                        <div class="footer_widget bsbb" id="text-3"><h3>Coordonnées</h3>			<div class="textwidget"><p>Inist-CNRS</p>
+<p>2, rue Jean Zay</p>
+<p>54519 Vandoeuvre-lès-Nancy</p>
+<p><img class="imgwidget" src="/wp-content/themes/opidor/images/mail30.png" alt="courriel" /><a href="https://opidor.fr/contact">Contact</a></p>
+</div>
+		</div><div class="footer_widget bsbb" id="text-2"><h3>Les services OPIDoR</h3>			<div class="textwidget"><p><a href="https://dmp.opidor.fr/" target="_blank" rel="noopener">DMP OPIDoR</a></p>
+<p><a href="https://cat.opidor.fr/" target="_blank" rel="noopener">Cat OPIDoR</a></p>
+<p><a href="http://www.inist.fr/?Attribution-de-DOI" target="_blank" rel="noopener">DataCite</a></p>
+</div>
+		</div><div class="footer_widget bsbb" id="text-5"><h3>Services associés</h3>			<div class="textwidget"><p><a href="https://doranum.fr/" target="_blank" rel="noopener">DoRANum</a></p>
+</div>
+		</div><div class="footer_widget bsbb" id="text-4">			<div class="textwidget"><p><a href="http://www.cnrs.fr" target="_blank" rel="noopener"><img class="logo_widget" src="/wp-content/themes/opidor/images/logo90.png" alt="logo CNRS" /></a></p>
+<p class="bold"><a href="https://www.cnrs.fr" target="_blank" rel="noopener">CNRS</a> | <a href="http://www.cnrs.fr/dist/la-dist.html" target="_blank" rel="noopener">DIST</a> | <a href="https://www.inist.fr" target="_blank" rel="noopener">INIST</a></p>
+<p><a href="/mentions-legales">Mentions légales</a></p>
+<p><a href="/politique-de-confidentialite">Politique de confidentialité</a></p>
+</div>
+		</div>
+                    </sidebar>
+                </footer>
+                                <script type='text/javascript' src='https://opidor.fr/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://opidor.fr/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/opidor.fr\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://opidor.fr/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LebmrcUAAAAAM0xN2VZwe3ElnO3_hz56oUlPZ84&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LebmrcUAAAAAM0xN2VZwe3ElnO3_hz56oUlPZ84","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://opidor.fr/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.4.2' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://opidor.fr/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+
+		<!-- Cookie Notice plugin v2.1.3 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(0,0,0,1);"><div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">En poursuivant votre navigation, sans modifier vos paramètres, vous acceptez l'utilisation le dépôt de cookies destinés à mesurer la fréquentation du site grâce au logiciel Matomo. Pour plus d'informations, gérer ou modifier les paramètres, vous pouvez vous rendre sur notre page de politique de confidentialité.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button" aria-label="Ok">Ok</a><a href="https://opidor.fr/politique-de-confidentialite/" target="_self" id="cn-more-info" class="cn-more-info cn-button bootstrap button" aria-label="Politique de confidentialité">Politique de confidentialité</a></span><a href="javascript:void(0);" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="Ok"></a></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin -->
+                <div class="site-cache" id="site-cache"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://opidor.fr/wp-content/themes/opidor/js/hamburger.js"></script>
+    </div>
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push([function() {
+        var self = this;
+        function getOriginalVisitorCookieTimeout() {
+            var now = new Date(),
+            nowTs = Math.round(now.getTime() / 1000),
+            visitorInfo = self.getVisitorInfo();
+            var createTs = parseInt(visitorInfo[2]);
+            var cookieTimeout = 33696000; 
+            var originalTimeout = createTs + cookieTimeout - nowTs;
+            return originalTimeout;
+        }
+        this.setVisitorCookieTimeout( getOriginalVisitorCookieTimeout() );
+    }]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://piwik2.inist.fr/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '45']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//piwik2.inist.fr/piwik.php?idsite=45" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+</html>
